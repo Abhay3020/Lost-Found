@@ -5,7 +5,6 @@
   "devDependencies": {
     "tailwindcss": "^3.4.1",
     "postcss": "^8.4.x",
-    "autoprefixer": "^10.x",
-    "@tailwindcss/postcss": "^0.2.x"
+    "autoprefixer": "^10.x"
   }
 }
