@@ -6,6 +6,8 @@ import ViewPage from './pages/ViewPage';
 import ViewDetailPage from './pages/ViewDetailPage';
 import CollectedPage from './pages/CollectedPage';
 import CollectedDetailPage from './pages/CollectedDetailPage';
+import DonatedPage from './pages/DonatedPage';
+
 import './App.css';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
             <Route path="/view/:id" element={<ViewDetailPage />} />
             <Route path="/collected" element={<CollectedPage />} />
             <Route path="/collected/:id" element={<CollectedDetailPage />} />
+            <Route path="/donated" element={<DonatedPage />} />
+
           </Routes>
         </div>
         <Footer />

@@ -46,6 +46,10 @@
     outline: none;
   }
   
+  .highlight-donation {
+    background-color: #ffebcc !important;
+  }
+  
   /* Table styling */
   .styled-table {
     width: 100%;

@@ -18,6 +18,8 @@ export default function Navbar() {
     <li><Link to="/report" onClick={handleLinkClick}>Report Item</Link></li>
     <li><Link to="/view" onClick={handleLinkClick}>View Items</Link></li>
     <li><Link to="/collected" onClick={handleLinkClick}>Collected Items</Link></li>
+    <li><Link to="/donated">Donated Items</Link></li>
+
   </ul>
 </nav>
   );
